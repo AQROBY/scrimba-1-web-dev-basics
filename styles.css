@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/RO_HD_Corvin_castle.jpg");
+    background-size: 720px 343px;
+    padding: 55px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 0;
+}
+
+#hero h1 {
+    background: #1D3557;
+    width: 260px;
+    height: 42px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    margin-top: 71px;
+}
+
+#hero h2 {
+    width: 400px;
+    height: 50px;
+    background: #457B9D;
+    padding: 8px 16px;
+    border-radius: 13px;
+    width: 550px;
+    margin-top: 80px;
+}
+
+#activities {
+    background: #F1FAEE;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #1D3557;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.activities-wrapper {
+    background: #F1FAEE;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #1D3557;
+}
+
+#activities img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#activities h4 {
+    width: 183px;
+    height: 32;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#activities p {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+}
+
+#guide {
+    margin: 40px 50px;
+    color: #1D3557;
+    display: flex;
+    background: #A8DADC;
+    padding: 10px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.guide-flex{
+    padding: 10px;
+}
+
+#guide img {
+    height: 200px;
+    width: 180px;
+}
